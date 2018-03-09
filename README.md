@@ -1,6 +1,6 @@
 Introduction
 ============
 
-Este é o **Angular** versão de **AdminLTE** -/)
+Esta é uma **Angular** versão de **AdminLTE** 
 
 

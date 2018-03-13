@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.navbar .navbar-static-top{
+    background-color:#0072bf !important;
+}
+.skin-blue .main-header .logo {
+    background-color: #0072bf !important;
+}
+
+.skin-blue .main-header .navbar {
+    background-color: #0072bf !important;
+}

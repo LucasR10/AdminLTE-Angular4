@@ -1,10 +1,5 @@
 #logo{
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
+    width: 56px !important;
+    margin: -21px !important;
 }
 
-.navbar .navbar-static-top{
-    background-repeat: repeat-x;
-}

@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminFooterComponent implements OnInit {
 
+  today: number = Date.now();
   constructor() { }
 
   ngOnInit() {

@@ -11,22 +11,11 @@ import { AdminContentComponent } from './admin/admin-content/admin-content.compo
 import { AdminFooterComponent } from './admin/admin-footer/admin-footer.component';
 import { AdminControlSidebarComponent } from './admin/admin-control-sidebar/admin-control-sidebar.component';
 import { AdminDashboard1Component } from './admin/painel/admin-dashboard1.component';
-import { StarterComponent } from './starter/starter.component';
-import { StarterHeaderComponent } from './starter/starter-header/starter-header.component';
-import { StarterLeftSideComponent } from './starter/starter-left-side/starter-left-side.component';
-import { StarterContentComponent } from './starter/starter-content/starter-content.component';
-import { StarterFooterComponent } from './starter/starter-footer/starter-footer.component';
-import { StarterControlSidebarComponent } from './starter/starter-control-sidebar/starter-control-sidebar.component';
 
-@NgModule({
+@NgModule({ 
   declarations: [
-    AppComponent,
-    StarterComponent,
-    StarterHeaderComponent,
-    StarterLeftSideComponent,
-    StarterContentComponent,
-    StarterFooterComponent,
-    StarterControlSidebarComponent
+    AppComponent
+   
   ],
   imports: [
     BrowserModule,

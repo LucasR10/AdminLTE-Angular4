@@ -5,11 +5,32 @@
   <app-admin-left-side></app-admin-left-side>
 
   <!-- Content Wrapper. Contains page content -->
-  <router-outlet></router-outlet>
+
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <h1>
+      Ínicio
+      <small>Painel de Controle</small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i>Ínicio</a></li>
+      <li class="active">Painel</li>
+    </ol>
+  </section>
+
+  <!-- Main content -->
+  <section class="content">
+      
+    <div style="margin-left: none!">
+        <router-outlet></router-outlet>
+    </div>
+
+  </section>
+  <!-- /.content -->
+</div>
+  
   <!-- /.content-wrapper -->
   <app-admin-footer></app-admin-footer>
 
-  <!-- Control Sidebar -->
-  <!--<app-admin-control-sidebar></app-admin-control-sidebar> -->
-  <!-- /.control-sidebar -->
 </div>

@@ -8,6 +8,9 @@ import { AdminHeaderComponent } from './admin-header/admin-header.component';
 import { AdminComponent } from './admin.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AcpListarComponent } from './painel/acp-listar/acp-listar.component';
+
+
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { CommonModule } from '@angular/common';
     AdminContentComponent,
     AdminFooterComponent,
     AdminControlSidebarComponent,
-    AdminDashboard1Component
+    AdminDashboard1Component,
+    AcpListarComponent
+   
+
   ],
   exports: [AdminComponent]
 })

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AcpListarComponent } from './acp-listar.component';
+import { AcompanhamentoComponent } from './acompanhamento.component';
 
-describe('AcpListarComponent', () => {
-  let component: AcpListarComponent;
-  let fixture: ComponentFixture<AcpListarComponent>;
+describe('AcompanhamentoComponent', () => {
+  let component: AcompanhamentoComponent;
+  let fixture: ComponentFixture<AcompanhamentoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AcpListarComponent ]
+      declarations: [ AcompanhamentoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AcpListarComponent);
+    fixture = TestBed.createComponent(AcompanhamentoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

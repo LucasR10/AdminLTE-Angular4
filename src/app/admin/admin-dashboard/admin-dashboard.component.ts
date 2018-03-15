@@ -11,11 +11,11 @@ import * as moment from 'moment';
 declare var AdminLTE: any;
 
 @Component({
-  selector: 'app-admin-dashboard1',
-  templateUrl: './admin-dashboard1.component.html',
-  styleUrls: ['./admin-dashboard1.component.css']
+  selector: 'app-admin-dashboard',
+  templateUrl: './admin-dashboard.component.html',
+  styleUrls: ['./admin-dashboard.component.css']
 })
-export class AdminDashboard1Component implements OnInit {
+export class AdminDashboardComponent implements OnInit {
  
 
   constructor() { }

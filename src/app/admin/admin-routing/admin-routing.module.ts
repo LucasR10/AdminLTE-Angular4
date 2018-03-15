@@ -1,36 +1,37 @@
 
-import { AdminDashboard1Component } from './../painel/admin-dashboard1.component';
-import { AcpListarComponent } from './../painel/acp-listar/acp-listar.component';
+
 
 import { AdminComponent } from './../admin.component';
 import { NgModule, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { AcompanhamentoComponent } from '../admin-dashboard/acompanhamento/acompanhamento.component';
+import { AdminDashboardComponent } from '../admin-dashboard/admin-dashboard.component';
 
 @NgModule({
   imports: [
   
   RouterModule.forChild([
       {
-        path: 'admin',
+        path: 'inicio',
         component: AdminComponent,
         children: [
           {
             path: '',
-            redirectTo: 'painel',
+            redirectTo: 'inicio',
             pathMatch: 'full'
           },
           {
-            path: 'painel',
-            component: AdminDashboard1Component
+            path: 'inicio',
+            component: AdminDashboardComponent
           },
           {
             path: '',
-            component: AdminDashboard1Component
+            component: AdminDashboardComponent
           },
           {
             path: 'acompanhamento',
-            component: AcpListarComponent
+            component: AcompanhamentoComponent
           }
         ]
       }

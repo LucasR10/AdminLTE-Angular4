@@ -1,0 +1,29 @@
+<div class="col-lg-6">
+  <div class="input-group">
+  
+    <span class="input-group-addon" id="basic-addon1">
+      <button type="button" class="btn btn-default"  (click)="add()" >add</button>
+    </span>
+  
+  <input (input)="alteraNome($event)"  type="text" value="{{nome}}"  class="form-control" placeholder="Username">
+
+  
+</div>
+
+<br>
+ {{nome}}
+</div>
+<hr>
+template variablos
+<input   type="text"  [value]="inputValor"  class="form-control" placeholder="Username" #inputName>
+<button type="button"  class="btn btn-default"  (click)="pegarInput(inputName)" >add</button>
+<br>
+ <strong >Olá,  {{inputValor}}</strong>
+
+ <hr>
+
+two-way-data binding
+
+<input   type="text" [(ngModel)]="inputValor" >
+
+valor digitado : {{inputValor}}

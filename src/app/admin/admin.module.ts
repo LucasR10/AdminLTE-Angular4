@@ -10,6 +10,7 @@ import { AdminHeaderComponent } from './admin-header/admin-header.component';
 import { AdminComponent } from './admin.component';
 import { AcompanhamentoComponent } from './admin-dashboard/acompanhamento/acompanhamento.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
+import { DemoRootComponent } from './admin-demo/demo-root/demo-root.component';
 
 
 
@@ -17,7 +18,7 @@ import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.compo
 
 @NgModule({
   imports: [
-    CommonModule,
+  CommonModule,
     AdminRoutingModule
   ],
   declarations: [
@@ -29,6 +30,7 @@ import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.compo
     AdminControlSidebarComponent,
     AdminDashboardComponent,
     AcompanhamentoComponent
+   
    
 
   ],

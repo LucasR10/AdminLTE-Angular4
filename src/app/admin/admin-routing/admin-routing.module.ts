@@ -1,16 +1,17 @@
-
-
-
-import { AdminComponent } from './../admin.component';
 import { NgModule, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+
+import { AdminComponent } from './../admin.component';
 import { AcompanhamentoComponent } from '../admin-dashboard/acompanhamento/acompanhamento.component';
 import { AdminDashboardComponent } from '../admin-dashboard/admin-dashboard.component';
+import { DemoRootComponent } from '../admin-demo/demo-root/demo-root.component';
+
 
 @NgModule({
   imports: [
   
+
   RouterModule.forChild([
       {
         path: 'inicio',
@@ -32,7 +33,11 @@ import { AdminDashboardComponent } from '../admin-dashboard/admin-dashboard.comp
           {
             path: 'acompanhamento',
             component: AcompanhamentoComponent
-          }
+            //-----------------------------------
+          }, {
+            path: 'demo',
+            component: DemoRootComponent
+          },
         ]
       }
     ])
